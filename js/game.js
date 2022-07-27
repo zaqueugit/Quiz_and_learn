@@ -158,7 +158,7 @@ function fimDoJogo() {
 
     let s = 's'
     pontos == pontos ? s = '' : s = s
-    instrucoes.textContent = "Fim de Jogo! Você conseguiu " + pontos + " DinDim" + s
+    instrucoes.textContent = "Fim de Jogo! Você conseguiu " + pontos + " Moeda" + s
 
     instrucoes.classList.add('placar')
 
