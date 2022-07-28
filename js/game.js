@@ -1,4 +1,4 @@
-/* App JS com JSON */
+
 let titulo = document.querySelector('#titulo')
 
 let instrucoes = document.querySelector('#instrucoes')
@@ -123,7 +123,7 @@ function verificarSeAcertou(nQuestao, resposta) {
         // TEMPO DO BLOCO DO JOGO
         questao.style.display = 'block'
         proximaQuestao(1)
-        instrucoes.textContent = 'Próxima etapa - Médo!'
+        instrucoes.textContent = 'Próxima etapa - Médio!'
     }, 10000)
 
 
