@@ -10,11 +10,10 @@
 		<meta charset="UTF-8">
 		<meta https-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>DinDim Papo Reto</title>
+		<title> Qui and Learn </title>
 		<!-- CSS externo -->
 		<link rel="stylesheet" href="css/game.css" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
 	</head>
 
 	<body style="height:auto;background-color: #F3D548;">
@@ -29,8 +28,8 @@
 					<input type="hidden" id='instrucoes_id' name='instrucoes_id' value="<?=base64_encode(1)?>" />
 				</div>
 				
-				<div class="col-md-12 Dindins" style="margin: 10px 0;display:none;">
-					<span class='placar'>0 DinDim</span>
+				<div class="col-md-12 Moedas" style="margin: 10px 0;display:none;">
+					<span class='placar'>0 moedas</span>
 					<br/>
 					<span id='cronometro'></span>
 					<span id="final_quest"></span>
@@ -76,12 +75,9 @@
 			<input type="hidden" id='position_question' name='position_question' value='' />
 			<input type="hidden" id='coins' name='coins' value='0' />
 			<input type="hidden" id='tm' name='tm' value='0' />
-		</div>
-
-
-	<a> </a>
-	
-		</body>
+			</div>
+		<a> </a>
+	</body>
 	<footer class="centro" id='autoria' style="background-color: #f3d548;">
 
 
