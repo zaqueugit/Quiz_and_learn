@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $(".btn_start").on("click", function(event) {
         $(".begin_quiz").hide();
-        $(".Dindins").show();
+        $(".moedas").show();
         $(".barra_progresso").show();
         $(".instrucoes").show();
         $(".questao").show();
@@ -84,7 +84,7 @@ $(document).ready(function() {
                 } else {
                     document.querySelector('#somErro').play();
                 }
-                $('.placar').html(coins + " Dindins");
+                $('.placar').html(coins + " Moedas");
                 $('#coins').val(coins);
                 if (ordem_array != "") {
                     setTimeout(function() {
@@ -122,7 +122,7 @@ $(document).ready(function() {
                             if (coins > 100) {
                                 var texto_fim = "Parabéns, você conseguiu concluir o teste! <br/> <a href='https://drive.google.com/drive/folders/16kZ9Uaxr34NLNvbAVP0MLVb-7tSR9El6' download>Pegue sua recompensa! </a>";
                             } else {
-                                var texto_fim = "Infelizmente você só conseguiu " + coins + " Dindins tente novamente!";
+                                var texto_fim = "Infelizmente você só conseguiu " + coins + " Moedas tente novamente!";
                             }
                             $("#final_quest").html(texto_fim);
                             $("#final_quest").show();
