@@ -1,6 +1,6 @@
 
 
-<!-- Desenvolvido em parceria da itdevtech.com.br (Zaque Ataide) e o Dev. Cleverson Pimenta -->
+<!-- Desenvolvido em parceria da itdevtech.com.br (Zaque Ataide) -->
 
 
 <!DOCTYPE html>
