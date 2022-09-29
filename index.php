@@ -90,6 +90,6 @@
 					<br><noscript><img src="https://counter9.stat.ovh/private/webcontadores.php?c=ky8g1f9aap8uccdc7hrru4ujp3mhpym3" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>
 			
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-			<script src="js/game_2.js"></script>
+			<script src="game.js"></script>
 </footer>
 </html>
